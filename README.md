@@ -1,8 +1,5 @@
 # RipMe [![Licensed under the MIT License](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/RipMeApp/ripme/blob/master/LICENSE.txt) [![Join the chat at https://gitter.im/RipMeApp/Lobby](https://badges.gitter.im/RipMeApp/Lobby.svg)](https://gitter.im/RipMeApp/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) [![Subreddit](https://img.shields.io/badge/discuss-on%20reddit-blue.svg)](https://www.reddit.com/r/ripme/)
 
-[![Build Status](https://travis-ci.org/RipMeApp/ripme.svg?branch=master)](https://travis-ci.org/RipMeApp/ripme)
-[![Coverage Status](https://coveralls.io/repos/github/RipMeApp/ripme/badge.svg?branch=master)](https://coveralls.io/github/RipMeApp/ripme?branch=master)
-
 # Contribute
 
 RipMe is maintained with ♥️ and in our limited free time by **[@MetaPrime](https://github.com/metaprime)**, **[@cyian-1756](https://github.com/cyian-1756)** and **[@kevin51jiang](https://github.com/kevin51jiang)**. If you'd like to contribute but aren't good with code, help keep us happy with a small contribution!
@@ -22,9 +19,9 @@ RipMe is an album ripper for various websites. It is a cross-platform tool that 
 
 ## Downloads
 
-Download `ripme.jar` from the [latest release](https://github.com/ripmeapp/ripme/releases).
+Download `ripme.jar` from the [latest release](releases).
 
-**Note: If you're currently using version 1.2.x, 1.3.x or 1.7.49, you will not automatically get updates to the newest versions. We recommend downloading the latest version from the link above.**
+**Note: This fork has auto-updating hard disabled in code so you cannot accidentally pull stealth updates from the repo.**
 
 For information about running the `.jar` file, see [the How To Run wiki](https://github.com/ripmeapp/ripme/wiki/How-To-Run-RipMe).
 
@@ -43,6 +40,8 @@ For information about running the `.jar` file, see [the How To Run wiki](https:/
 
 ## List of Supported Sites
 
+* sadpanda / exhentai
+* danbooru
 * imgur
 * twitter
 * tumblr
