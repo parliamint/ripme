@@ -166,31 +166,8 @@ public class UpdateUtils {
     }
 
     private static boolean isNewerVersion(String latestVersion) {
-        // If we're testing the update utils we want the program to always try to update
-        if (Utils.getConfigBoolean("testing.always_try_to_update", false)) {
-            logger.info("isNewerVersion is returning true because the key \"testing.always_try_to_update\" is true");
-            return true;
-        }
-        int[] oldVersions = versionStringToInt(getThisJarVersion());
-        int[] newVersions = versionStringToInt(latestVersion);
-        if (oldVersions.length < newVersions.length) {
-            logger.error("Calculated: " + getThisJarVersion() + " < " + latestVersion);
-            return true;
-        }
-
-        for (int i = 0; i < oldVersions.length; i++) {
-            if (newVersions[i] > oldVersions[i]) {
-                logger.debug("oldVersion " + getThisJarVersion() + " < latestVersion" + latestVersion);
-                return true;
-            } else if (newVersions[i] < oldVersions[i]) {
-                logger.debug("oldVersion " + getThisJarVersion() + " > latestVersion " + latestVersion);
-                return false;
-            }
-        }
-
-        // At this point, the version numbers are exactly the same.
-        // Assume any additional changes to the version text means a new version
-        return !(latestVersion.equals(getThisJarVersion()));
+        // Updates hard-disabled in code so nobody has to trust the forked repo.
+        return false;
     }
 
     private static int[] versionStringToInt(String version) {
