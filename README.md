@@ -19,7 +19,7 @@ RipMe is an album ripper for various websites. It is a cross-platform tool that 
 
 ## Downloads
 
-Download `ripme.jar` from the [latest release](releases).
+Download `ripme.jar` from the [latest release](https://github.com/parliamint/ripme/releases).
 
 **Note: This fork has auto-updating hard disabled in code so you cannot accidentally pull stealth updates from the repo.**
 
